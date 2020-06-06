@@ -37,7 +37,7 @@ covid_world$NewRecovered <- as.numeric(gsub("[+,]", "", covid_world$NewRecovered
 covid_world$TotalDeaths <- as.numeric(gsub(",", "", covid_world$TotalDeaths))
 covid_world$TotalRecovered <- as.numeric(gsub(",", "", covid_world$TotalRecovered))
 ```
-Removing regoinal and global data
+Removing regional and global data
 ```sh
 covid_world <- covid_world %>% filter(!is.na(Country.pos))
 ```
