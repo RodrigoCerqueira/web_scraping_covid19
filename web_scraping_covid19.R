@@ -1,7 +1,7 @@
 #load necessary packages
 library(dplyr)
 library(rvest)
-library(stringr)
+
 
 #load table from worldometer
 table_worldometer <- "https://www.worldometers.info/coronavirus/" %>%
